@@ -14,12 +14,10 @@ app.use(express.json());
 
 
 //routers
- 
-//app.use(require('./routes/index'));
-//app.use('/api/tasks',require('./routes/tasks'));
-
+//json
 app.use(require('./routes/tasks'));
-
+//base
+app.use('/api',require('./routes/rest'));
 //stargin the server
 
 app.listen(app.get('port'), () => {
