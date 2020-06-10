@@ -3,7 +3,7 @@ const router = Router();
 const tasks = require('./api.json');
 const _=require('underscore');
 
-console.log('\n|Contenido api.json]-not from the database]\n');
+console.log('\n[Contenido de src/routes/api.json]-not from the database]\n\n|---------------------------------------------------------------------');
 console.log(tasks);
 
 router.get('/',(req, res)=>{
@@ -55,5 +55,5 @@ router.delete('/:id',(req, res)=>{
     });
     res.send(task);
 });
-
+console.log('|---------------------------------------------------------------------\n');
 module.exports = router;
