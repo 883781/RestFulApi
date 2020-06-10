@@ -3,7 +3,7 @@ const router = Router();
 const tasks = require('./api.json');
 const _=require('underscore');
 
-console.log('[Contenido api.json]-not from the database');
+console.log('\n|Contenido api.json]-not from the database]\n');
 console.log(tasks);
 
 router.get('/',(req, res)=>{

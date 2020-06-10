@@ -12,6 +12,7 @@ router.get('/users/:id', (request, response) => {
         response.send(result);
     });
 });
+
 // Display all users
 router.get('/', (request, response) => {
     mysqlConnection.query('SELECT * FROM users', (error, result) => {
@@ -19,9 +20,6 @@ router.get('/', (request, response) => {
         response.send(result);
     });
 });
-//Display all users in console
-
-//.....
 
 // Add a new user
 router.post('/:id', (request, response) => {
@@ -53,6 +51,4 @@ router.delete('/users/:id', (request, response) => {
         response.send('User deleted.');
     });
 });
-
-
 module.exports = router;
