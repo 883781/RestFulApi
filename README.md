@@ -11,7 +11,7 @@ url de descarga (https://www.postman.com/downloads/)
 
                                               PASOS DE EJECUCION
                                               
-..........................................................................................................
+
 . importamos la DB a nuestro sistema de gestion de base de datos que se encuentra en la ruta db/task.sql .
 
 
