@@ -1,21 +1,11 @@
 const {Router} = require('express');
 const router = Router();
 const tasks = require('./api.json');
-const mysqlConnection = require('../config/dbConnection.js');
+const _=require('underscore');
 
-/*
-router.get('/', (req, res) => {
-    mysqlConnection.query('SELECT * FROM task', (err, rows, fields) => {
-      if(!err) {
-        res.json(rows);
-      } else {
-        console.log(err);
-      }
-    });  
-  }); 
-*/
-  const _=require('underscore');
-console.log(tasks)
+console.log('[Contenido api.json]-not from the database');
+console.log(tasks);
+
 router.get('/',(req, res)=>{
     res.json(tasks);
    
