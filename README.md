@@ -1,12 +1,13 @@
 # RestFulApi
-Integrantes:
-yenifer tatiana chanchi portilla
-helmer wilfredo muchavisoy chindoy
-camila andrea achacue troches
-santiago felipe muñoz ordoñez
 
-Aplicaciones Necesaria:
-Postman como aplicacion necesaria para la ejecicion de las acciones del RESTFUL.
+    INTEGRANTES:
+    Yenifer tatiana chanchi portilla
+    Helmer wilfredo muchavisoy chindoy
+    Camila andrea achacue troches
+    Santiago felipe muñoz ordoñez
+
+Aplicaciones Necesarias:
+Postman como aplicacion necesaria para la ejecución de las acciones del RESTFUL.
 url de descarga (https://www.postman.com/downloads/)
 
                                               PASOS DE EJECUCION
