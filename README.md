@@ -10,9 +10,10 @@ Postman como aplicacion necesaria para la ejecicion de las acciones del RESTFUL.
 url de descarga (https://www.postman.com/downloads/)
 
                                               PASOS DE EJECUCION
+                                              
 ..........................................................................................................
 . importamos la DB a nuestro sistema de gestion de base de datos que se encuentra en la ruta db/task.sql .
-..........................................................................................................
+
 
 1. ejecutar el archivo index.js, con la consola de nuestro sistema operativo o mediante la consola del IDE que usen para el desarrollo de proyectos, con el codigo (npm run dev). Esto que el que el archivo index.js inicie (contiene la configuracion del servidor y la ruta de la base de datos).
 
